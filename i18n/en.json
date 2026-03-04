@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "StoreKite — AI-Powered E-Commerce Store Builder",
+    "description": "We build complete AI-powered WooCommerce stores with server-side tracking, headless Nuxt frontend, and AI content pipeline. Catch every conversion signal.",
+    "ogImage": "/og-en.png"
+  },
+  "nav": {
+    "services": "Services",
+    "caseStudy": "Case Study",
+    "pricing": "Pricing",
+    "bookCall": "Book a free 30-min call →"
+  },
+  "hero": {
+    "badge": "AI-powered store builder · 5-8 projects/year",
+    "title1": "We build stores",
+    "title2": "that catch",
+    "title3": "every signal.",
+    "subtitle": "Complete AI-powered WooCommerce stores — headless Nuxt frontend, server-side tracking, AI content pipeline. Built in weeks, not months.",
+    "cta": "Book a free 30-min call →",
+    "ctaSecondary": "See how it works",
+    "proof": "No lock-in · Full build in 4–8 weeks · MCP-powered WordPress management"
+  },
+  "strip": {
+    "val1": "4–8w",
+    "label1": "full store build, not 3–6 months",
+    "val2": "95+",
+    "label2": "PageSpeed mobile score",
+    "val3": "90%+",
+    "label3": "conversion attribution with sGTM",
+    "val4": "AI",
+    "label4": "content pipeline on autopilot"
+  },
+  "services": {
+    "label": "What we build",
+    "title": "Three layers. One complete store.",
+    "subtitle": "StoreKite wraps your WooCommerce with infrastructure that makes your store faster, smarter, and trackable.",
+    "tracking": {
+      "number": "01",
+      "name": "Tracking",
+      "title": "GA4 + GTM done right",
+      "description": "Server-side tagging runs on our infrastructure. iOS, adblockers, GDPR — none of them touch your conversion data.",
+      "features": ["Automated GA4/GTM setup", "Server-side tracking (sGTM)", "Meta CAPI with deduplication", "GTM consent mode (GDPR)"]
+    },
+    "performance": {
+      "number": "02",
+      "name": "Performance",
+      "title": "PageSpeed 95+ mobile",
+      "description": "Nuxt 3 headless frontend on Vercel edge. Cheaper clicks, better Quality Score, faster checkout.",
+      "features": ["Nuxt 3 SSR + Vercel edge CDN", "Core Web Vitals green", "Native payment integration", "MCP-powered WordPress management"]
+    },
+    "ai": {
+      "number": "03",
+      "name": "AI Content",
+      "title": "Blog on autopilot",
+      "description": "SEO articles, social drafts, email campaigns — AI-generated, you approve before publishing.",
+      "features": ["AI-generated blog content", "Social media drafts", "Email automation", "Content calendar management"]
+    }
+  },
+  "timeline": {
+    "label": "Timeline",
+    "title": "From zero to live in 4–8 weeks.",
+    "subtitle": "Clear milestones, no surprises. You know exactly where we are at every step.",
+    "weeks": [
+      { "week": "Week 1–2", "title": "Discovery & Setup", "description": "Store audit, design system, WordPress backend setup, GA4/GTM configuration, project architecture." },
+      { "week": "Week 2–4", "title": "Build & Integrate", "description": "Nuxt 3 frontend development, product catalog, checkout flow, payment integration, server-side tracking." },
+      { "week": "Week 4–6", "title": "AI & Content Layer", "description": "AI content pipeline setup, blog automation, social media integration, email flows in Klaviyo." },
+      { "week": "Week 6–8", "title": "Launch & Optimize", "description": "QA testing, performance optimization, DNS migration, monitoring setup, handover documentation." }
+    ]
+  },
+  "roi": {
+    "label": "ROI Calculator",
+    "title": "See what better tracking is worth.",
+    "subtitle": "Enter your monthly revenue. We'll show the projected impact of proper attribution and AI content.",
+    "inputLabel": "Monthly revenue (PLN)",
+    "inputPlaceholder": "e.g. 100000",
+    "resultTitle": "Projected monthly uplift",
+    "trackingUplift": "from tracking improvement",
+    "trackingDesc": "Better ML signal → smarter ad spend → more attributed conversions",
+    "contentUplift": "from AI content pipeline",
+    "contentDesc": "SEO blog traffic + email automation → organic revenue growth",
+    "totalUplift": "total projected monthly uplift",
+    "disclaimer": "* Projections based on industry benchmarks. Tracking uplift assumes 15-25% improvement in attribution leading to better ad optimization. Content uplift assumes 3-5% organic revenue growth from consistent SEO content. Individual results vary."
+  },
+  "caseStudy": {
+    "label": "Case study",
+    "title": "Coming soon.",
+    "subtitle": "We're gathering real GA4 data from our first builds. Full case studies with before/after metrics will be published here.",
+    "placeholder": "Case study with real numbers — coming Q2 2026",
+    "metrics": {
+      "tracking": "Conversion attribution improvement",
+      "speed": "PageSpeed score improvement",
+      "content": "AI-generated articles per month",
+      "timeline": "Build timeline"
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Questions we hear often.",
+    "items": [
+      { "q": "What exactly does StoreKite build?", "a": "We build complete AI-powered WooCommerce stores — headless Nuxt 3 frontend, automated GA4/GTM tracking, AI content pipeline (blog, social, email), and MCP-powered WordPress management. It's a full store build, not just tracking consulting." },
+      { "q": "How is this different from a regular agency?", "a": "Regular agencies take 3–6 months and skip tracking infrastructure. We deliver in 4–8 weeks with enterprise-grade server-side tracking, AI content automation, and MCP-powered WordPress management built in from day one." },
+      { "q": "Do I need to migrate from my current store?", "a": "Yes — we build a new headless frontend on Nuxt 3 while keeping your WooCommerce backend. Your products, orders, and customers stay in WordPress. The frontend gets a complete rebuild for performance and tracking." },
+      { "q": "What about SEO during migration?", "a": "We handle 301 redirects, canonical URLs, structured data, and sitemap generation. Most stores see improved rankings within weeks thanks to Core Web Vitals improvements." },
+      { "q": "How many projects do you take per year?", "a": "5–8 projects maximum. Each store gets dedicated attention — no assembly line, no junior devs. When we're full, we're full." },
+      { "q": "What does the AI content pipeline actually do?", "a": "It generates SEO blog articles, social media drafts, and email campaigns based on your products and brand voice. You review and approve before publishing. It's not auto-posting garbage — it's AI-assisted content creation with human oversight." }
+    ]
+  },
+  "cta": {
+    "title": "Ready to build your AI store?",
+    "subtitle": "30-minute call. We'll map out your store build — tech stack, AI content pipeline, tracking setup, timeline and price.",
+    "button": "Book a free 30-min call →",
+    "fine": "No commitment · You keep everything we build"
+  },
+  "footer": {
+    "builtIn": "Built in Poland 🇵🇱",
+    "copyright": "© 2026 StoreKite",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 2026"
+  }
+}

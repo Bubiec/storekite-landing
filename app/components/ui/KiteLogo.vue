@@ -1,0 +1,20 @@
+<template>
+  <svg :width="size" :height="size" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="logoTop" x1="16" y1="2" x2="16" y2="18" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#9333EA"/>
+        <stop offset="100%" stop-color="#7C3AED"/>
+      </linearGradient>
+    </defs>
+    <path d="M16 2 L3 16 L16 16 Z" fill="url(#logoTop)" opacity="0.9"/>
+    <path d="M16 2 L29 16 L16 16 Z" fill="#8B5CF6" opacity="0.9"/>
+    <path d="M3 16 L16 26 L16 16 Z" fill="#4C1D95" opacity="0.95"/>
+    <path d="M29 16 L16 26 L16 16 Z" fill="#5B21B6" opacity="0.95"/>
+    <path d="M16 2 L29 16 L16 26 L3 16 Z" stroke="rgba(167,139,250,0.3)" stroke-width="0.75" fill="none"/>
+    <path d="M16 26 C17 29 15 31 16 33" stroke="#10B981" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </svg>
+</template>
+
+<script setup lang="ts">
+withDefaults(defineProps<{ size?: number }>(), { size: 28 })
+</script>
