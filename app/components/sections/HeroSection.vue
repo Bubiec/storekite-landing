@@ -14,7 +14,7 @@
 
           <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.05] tracking-tight mb-6">
             {{ $t('hero.title1') }}<br>
-            <span class="text-violet-light">{{ $t('hero.title2') }}</span><br>
+            <span class="bg-gradient-to-r from-violet-light to-emerald-light bg-clip-text text-transparent">{{ $t('hero.title2') }}</span><br>
             <span class="text-emerald-light">{{ $t('hero.title3') }}</span>
           </h1>
 
@@ -39,9 +39,14 @@
             </a>
           </div>
 
-          <div class="flex items-center gap-3 text-sm text-muted">
+          <div class="flex items-center gap-3 text-sm text-muted mb-4">
             <div class="w-1.5 h-1.5 rounded-full bg-emerald" />
             {{ $t('hero.proof') }}
+          </div>
+          <div class="flex flex-wrap gap-3">
+            <span v-for="(trust, i) in $tm('hero.trustIndicators')" :key="i" class="text-xs text-muted bg-card border border-border rounded-full px-3 py-1.5">
+              {{ trust }}
+            </span>
           </div>
         </div>
 
@@ -105,7 +110,7 @@
     <div class="border-y border-border bg-card/60">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 py-8 grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-16">
         <div v-for="i in 4" :key="i" class="text-center">
-          <div class="text-2xl sm:text-3xl font-extrabold tracking-tight bg-gradient-to-r from-violet-light to-emerald-light bg-clip-text text-transparent">
+          <div class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight bg-gradient-to-r from-violet-light to-emerald-light bg-clip-text text-transparent">
             {{ $t(`strip.val${i}`) }}
           </div>
           <div class="text-xs text-muted mt-1 max-w-[160px] mx-auto">{{ $t(`strip.label${i}`) }}</div>

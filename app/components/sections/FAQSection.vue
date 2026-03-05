@@ -3,27 +3,25 @@
     <p class="text-xs font-bold tracking-[3px] uppercase text-violet-light mb-4">{{ $t('faq.label') }}</p>
     <h2 class="text-3xl sm:text-4xl font-black tracking-tight leading-tight mb-12">{{ $t('faq.title') }}</h2>
 
-    <div class="space-y-3">
-      <div
-        v-for="(item, idx) in faqItems"
-        :key="idx"
-        class="bg-card border border-border rounded-2xl overflow-hidden"
-      >
+    <div class="border border-border rounded-2xl overflow-hidden divide-y divide-border">
+      <div v-for="(item, idx) in faqItems" :key="idx">
         <button
-          class="w-full flex items-center justify-between p-6 text-left hover:bg-card2 transition-colors"
+          class="w-full flex items-center justify-between px-7 py-6 text-left hover:bg-white/[0.02] transition-colors"
           @click="toggle(idx)"
         >
           <span class="text-base font-bold pr-4">{{ item.q }}</span>
-          <svg
-            class="w-5 h-5 text-muted shrink-0 transition-transform duration-200"
-            :class="{ 'rotate-180': openIdx === idx }"
-            fill="none" viewBox="0 0 24 24" stroke="currentColor"
-          >
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-          </svg>
+          <span
+            class="text-lg text-violet-light shrink-0 transition-transform duration-200"
+            :class="{ 'rotate-45': openIdx === idx }"
+          >+</span>
         </button>
-        <div v-if="openIdx === idx" class="px-6 pb-6">
-          <p class="text-sm text-muted-light leading-relaxed">{{ item.a }}</p>
+        <div
+          class="grid transition-all duration-300 ease-in-out"
+          :class="openIdx === idx ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'"
+        >
+          <div class="overflow-hidden">
+            <p class="px-7 pb-6 text-sm text-muted-light leading-relaxed">{{ item.a }}</p>
+          </div>
         </div>
       </div>
     </div>

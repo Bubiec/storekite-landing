@@ -22,12 +22,10 @@
         </NuxtLink>
 
         <a
-          href="https://cal.com/szymon-bubala/30min"
-          target="_blank"
-          rel="noopener"
-          class="bg-violet text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-violet-light transition-colors"
+          href="#cta"
+          class="bg-emerald text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-emerald-light transition-colors"
         >
-          {{ $t('nav.bookCall') }}
+          {{ $t('nav.discoveryCta') }}
         </a>
       </div>
 
@@ -58,9 +56,9 @@
         href="https://cal.com/szymon-bubala/30min"
         target="_blank"
         rel="noopener"
-        class="block text-center bg-violet text-white text-sm font-semibold px-5 py-3 rounded-lg"
+        class="block text-center bg-emerald text-white text-sm font-semibold px-5 py-3 rounded-full"
       >
-        {{ $t('nav.bookCall') }}
+        {{ $t('nav.discoveryCta') }}
       </a>
     </div>
   </nav>

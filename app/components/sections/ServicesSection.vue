@@ -8,7 +8,7 @@
       <div
         v-for="(key, idx) in ['tracking', 'performance', 'ai']"
         :key="key"
-        class="relative bg-card border border-border rounded-2xl p-7 overflow-hidden"
+        class="relative bg-card border border-violet/20 rounded-2xl p-7 overflow-hidden transition-all duration-300 hover:border-violet/50 hover:shadow-[0_0_30px_-5px_rgba(124,58,237,0.15)]"
       >
         <!-- Top accent bar -->
         <div

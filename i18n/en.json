@@ -4,11 +4,15 @@
     "description": "We build complete AI-powered WooCommerce stores with server-side tracking, headless Nuxt frontend, and AI content pipeline. Catch every conversion signal.",
     "ogImage": "/og-en.png"
   },
+  "announcement": {
+    "text": "Now accepting new projects for Q2"
+  },
   "nav": {
     "services": "Services",
     "caseStudy": "Case Study",
     "pricing": "Pricing",
-    "bookCall": "Book a free 30-min call →"
+    "bookCall": "Book a free 30-min call →",
+    "discoveryCta": "Discovery call →"
   },
   "hero": {
     "badge": "AI-powered store builder · 5-8 projects/year",
@@ -18,17 +22,31 @@
     "subtitle": "Complete AI-powered WooCommerce stores — headless Nuxt frontend, server-side tracking, AI content pipeline. Built in weeks, not months.",
     "cta": "Book a free 30-min call →",
     "ctaSecondary": "See how it works",
-    "proof": "No lock-in · Full build in 4–8 weeks · MCP-powered WordPress management"
+    "proof": "No lock-in · Full build in 4–8 weeks · MCP-powered WordPress management",
+    "trustIndicators": ["🇵🇱 Built in Poland", "⚡ PageSpeed 95+", "🔒 GDPR compliant", "🤖 AI content pipeline"]
   },
   "strip": {
-    "val1": "4–8w",
-    "label1": "full store build, not 3–6 months",
-    "val2": "95+",
-    "label2": "PageSpeed mobile score",
-    "val3": "90%+",
-    "label3": "conversion attribution with sGTM",
-    "val4": "AI",
-    "label4": "content pipeline on autopilot"
+    "val1": "~40%",
+    "label1": "conversions lost before StoreKite",
+    "val2": "4–6w",
+    "label2": "full migration, not 3–6 months",
+    "val3": "96",
+    "label3": "PageSpeed mobile on biohac.pl",
+    "val4": "M1",
+    "label4": "month 1 retainer typically pays for itself"
+  },
+  "problem": {
+    "label": "The problem",
+    "title1": "Your agency did the migration.",
+    "title2": "The data is still broken.",
+    "subtitle": "Three invisible leaks drain your ad budget every day. Most WooCommerce stores have all three.",
+    "cards": [
+      { "num": "~40%", "title": "Tracking gap", "desc": "iPhone purchases vanish before reaching Meta ML — your campaigns optimise on a fraction of actual buyers." },
+      { "num": "~35%", "title": "iOS blind spot", "desc": "Over a third of Polish internet users run adblockers. Every one of them is invisible to Google Ads' Smart Bidding." },
+      { "num": "40→95", "title": "PageSpeed jump", "desc": "Typical WooCommerce scores 40–60 on mobile. You pay 20–40% more per click than you should." }
+    ],
+    "savingsNum": "€3–5k/mo",
+    "savingsDesc": "Estimated monthly loss for a store spending €10k/month on ads — from tracking gaps alone."
   },
   "services": {
     "label": "What we build",
@@ -92,6 +110,58 @@
       "content": "AI-generated articles per month",
       "timeline": "Build timeline"
     }
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "No \"contact us for pricing.\"",
+    "subtitle": "One-time build fee + optional monthly AI Care retainer. No lock-in.",
+    "growth": {
+      "badge": "Recommended",
+      "name": "Growth Store",
+      "desc": "Full headless migration + complete tracking stack. Everything your current agency skipped.",
+      "price": "€7,000–€12,000",
+      "priceSub": "one-time · 90 days support",
+      "timeline": "⚡ ~4–6 weeks to go live",
+      "features": [
+        "Full WooCommerce → Nuxt 3 migration",
+        "Stape sGTM setup + configuration",
+        "Meta CAPI with deduplication",
+        "GTM consent mode (GDPR-compliant)",
+        "GA4 server-side events",
+        "InPost Pay + BaseLinker setup",
+        "\"Signals recovered\" audit report"
+      ],
+      "cta": "Book a free discovery call →"
+    },
+    "ai": {
+      "badge": "",
+      "name": "AI Store",
+      "desc": "Everything in Growth, plus AI blog pipeline, social drafts, Telegram store assistant, and Klaviyo email automation.",
+      "price": "€12,000–€20,000",
+      "priceSub": "one-time · ~6 weeks + retainer",
+      "timeline": "⚡ Full AI content layer included",
+      "features": [
+        "Everything in Growth Store",
+        "AI blog pipeline (8–12 articles/month)",
+        "Social media draft generation",
+        "Klaviyo email automation",
+        "Telegram store assistant",
+        "Content calendar management",
+        "AI Care retainer (€600–€1,200/mo)"
+      ],
+      "cta": "Book a free discovery call →"
+    }
+  },
+  "testimonial": {
+    "label": "Social proof",
+    "quote": "I built StoreKite for my own store first. Then decided to offer it to others. Every tool in this stack is something I built, tested on my own ad budget, and rely on myself.",
+    "name": "Szymon Bubała",
+    "role": "Founder, StoreKite · biohac.pl",
+    "stats": [
+      { "val": "6+", "label": "years in dev" },
+      { "val": "3", "label": "stores built" },
+      { "val": "96", "label": "PageSpeed" }
+    ]
   },
   "faq": {
     "label": "FAQ",

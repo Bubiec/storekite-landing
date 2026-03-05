@@ -10,7 +10,8 @@
         <NuxtLink :to="localePath('/terms')" class="hover:text-white transition-colors">{{ $t('footer.terms') }}</NuxtLink>
       </div>
       <div class="text-center sm:text-right">
-        {{ $t('footer.builtIn') }} · {{ $t('footer.copyright') }}
+        <div>{{ $t('footer.builtIn') }} · {{ $t('footer.copyright') }}</div>
+        <div class="text-xs text-muted/60 mt-1">Built with Nuxt & Tailwind</div>
       </div>
     </div>
   </footer>

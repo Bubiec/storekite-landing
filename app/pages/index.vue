@@ -1,11 +1,15 @@
 <template>
   <div>
     <NavBar />
+    <AnnouncementBar />
     <HeroSection />
+    <ProblemSection />
     <ServicesSection />
     <TimelineSection />
     <ROICalculator />
     <CaseStudySection />
+    <PricingSection />
+    <TestimonialSection />
     <FAQSection />
     <CTASection />
     <FooterBar />
