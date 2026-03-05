@@ -31,6 +31,9 @@ export default defineNuxtConfig({
     lazy: true,
     langDir: 'i18n',
     detectBrowserLanguage: false,
+    compilation: {
+      jit: true,
+    },
   },
 
   tailwindcss: {
