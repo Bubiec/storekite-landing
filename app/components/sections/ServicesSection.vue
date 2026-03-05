@@ -24,7 +24,7 @@
 
         <ul class="space-y-2">
           <li
-            v-for="(feat, fi) in ($tm(`services.${key}.features`) as string[])"
+            v-for="(feat, fi) in $tm(`services.${key}.features`)"
             :key="fi"
             class="text-sm text-muted-light flex items-start gap-2"
           >
