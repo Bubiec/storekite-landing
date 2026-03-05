@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       { code: 'pl', language: 'pl-PL', file: 'pl.json', name: 'Polski' },
     ],
     lazy: true,
-    langDir: '../i18n',
+    langDir: 'i18n',
     detectBrowserLanguage: false,
   },
 
