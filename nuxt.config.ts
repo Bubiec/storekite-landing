@@ -3,6 +3,10 @@ export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
 
+  components: [
+    { path: '~/components', pathPrefix: false },
+  ],
+
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
