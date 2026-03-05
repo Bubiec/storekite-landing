@@ -8,7 +8,7 @@
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
         <div v-for="key in ['tracking', 'speed', 'content', 'timeline']" :key="key" class="bg-bg border border-border rounded-xl p-5 text-center">
           <div class="text-3xl font-black text-muted tracking-tight mb-1">—</div>
-          <div class="text-xs text-muted">{{ $t(`caseStudy.metrics.${key}`) }}</div>
+          <div class="text-xs text-muted">{{ $t(`caseStudy.metrics_${key}`) }}</div>
         </div>
       </div>
       <div class="text-center">

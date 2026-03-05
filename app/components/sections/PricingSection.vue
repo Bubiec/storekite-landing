@@ -18,12 +18,12 @@
 
         <ul class="space-y-3 mb-8 pb-6 border-b border-border">
           <li
-            v-for="(feat, fi) in $tm('pricing.growth.features')"
+            v-for="fi in 7"
             :key="fi"
             class="text-sm text-muted-light flex items-start gap-2.5"
           >
             <span class="text-emerald-light font-bold">✓</span>
-            {{ feat }}
+            {{ $t(`pricing.growth.feat${fi - 1}`) }}
           </li>
         </ul>
 
@@ -45,12 +45,12 @@
 
         <ul class="space-y-3 mb-8 pb-6 border-b border-border">
           <li
-            v-for="(feat, fi) in $tm('pricing.ai.features')"
+            v-for="fi in 7"
             :key="fi"
             class="text-sm text-muted-light flex items-start gap-2.5"
           >
             <span class="text-emerald-light font-bold">✓</span>
-            {{ feat }}
+            {{ $t(`pricing.ai.feat${fi - 1}`) }}
           </li>
         </ul>
 

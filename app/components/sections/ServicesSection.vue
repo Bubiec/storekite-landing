@@ -24,12 +24,12 @@
 
         <ul class="space-y-2">
           <li
-            v-for="(feat, fi) in $tm(`services.${key}.features`)"
+            v-for="fi in 4"
             :key="fi"
             class="text-sm text-muted-light flex items-start gap-2"
           >
             <span :class="idx === 1 ? 'text-emerald-light' : 'text-violet-light'" class="font-bold">→</span>
-            {{ feat }}
+            {{ $t(`services.${key}.feat${fi - 1}`) }}
           </li>
         </ul>
       </div>

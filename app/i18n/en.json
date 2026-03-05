@@ -23,7 +23,11 @@
     "cta": "Book a free 30-min call →",
     "ctaSecondary": "See how it works",
     "proof": "No lock-in · Full build in 4–8 weeks · MCP-powered WordPress management",
-    "trustIndicators": ["🇵🇱 Built in Poland", "⚡ PageSpeed 95+", "🔒 GDPR compliant", "🤖 AI content pipeline"]
+    "trust0": "🇵🇱 Built in Poland",
+    "trust1": "⚡ PageSpeed 95+",
+    "trust2": "🔒 GDPR compliant",
+    "trust3": "🤖 AI content pipeline",
+    "trustCount": "4"
   },
   "strip": {
     "val1": "~40%",
@@ -40,13 +44,18 @@
     "title1": "Your agency did the migration.",
     "title2": "The data is still broken.",
     "subtitle": "Three invisible leaks drain your ad budget every day. Most WooCommerce stores have all three.",
-    "cards": [
-      { "num": "~40%", "title": "Tracking gap", "desc": "iPhone purchases vanish before reaching Meta ML — your campaigns optimise on a fraction of actual buyers." },
-      { "num": "~35%", "title": "iOS blind spot", "desc": "Over a third of Polish internet users run adblockers. Every one of them is invisible to Google Ads' Smart Bidding." },
-      { "num": "40→95", "title": "PageSpeed jump", "desc": "Typical WooCommerce scores 40–60 on mobile. You pay 20–40% more per click than you should." }
-    ],
     "savingsNum": "€3–5k/mo",
-    "savingsDesc": "Estimated monthly loss for a store spending €10k/month on ads — from tracking gaps alone."
+    "savingsDesc": "Estimated monthly loss for a store spending €10k/month on ads — from tracking gaps alone.",
+    "card0_num": "~40%",
+    "card0_title": "Tracking gap",
+    "card0_desc": "iPhone purchases vanish before reaching Meta ML — your campaigns optimise on a fraction of actual buyers.",
+    "card1_num": "~35%",
+    "card1_title": "iOS blind spot",
+    "card1_desc": "Over a third of Polish internet users run adblockers. Every one of them is invisible to Google Ads' Smart Bidding.",
+    "card2_num": "40→95",
+    "card2_title": "PageSpeed jump",
+    "card2_desc": "Typical WooCommerce scores 40–60 on mobile. You pay 20–40% more per click than you should.",
+    "cardCount": "3"
   },
   "services": {
     "label": "What we build",
@@ -57,33 +66,52 @@
       "name": "Tracking",
       "title": "GA4 + GTM done right",
       "description": "Server-side tagging runs on our infrastructure. iOS, adblockers, GDPR — none of them touch your conversion data.",
-      "features": ["Automated GA4/GTM setup", "Server-side tracking (sGTM)", "Meta CAPI with deduplication", "GTM consent mode (GDPR)"]
+      "feat0": "Automated GA4/GTM setup",
+      "feat1": "Server-side tracking (sGTM)",
+      "feat2": "Meta CAPI with deduplication",
+      "feat3": "GTM consent mode (GDPR)",
+      "featCount": "4"
     },
     "performance": {
       "number": "02",
       "name": "Performance",
       "title": "PageSpeed 95+ mobile",
       "description": "Nuxt 3 headless frontend on Vercel edge. Cheaper clicks, better Quality Score, faster checkout.",
-      "features": ["Nuxt 3 SSR + Vercel edge CDN", "Core Web Vitals green", "Native payment integration", "MCP-powered WordPress management"]
+      "feat0": "Nuxt 3 SSR + Vercel edge CDN",
+      "feat1": "Core Web Vitals green",
+      "feat2": "Native payment integration",
+      "feat3": "MCP-powered WordPress management",
+      "featCount": "4"
     },
     "ai": {
       "number": "03",
       "name": "AI Content",
       "title": "Blog on autopilot",
       "description": "SEO articles, social drafts, email campaigns — AI-generated, you approve before publishing.",
-      "features": ["AI-generated blog content", "Social media drafts", "Email automation", "Content calendar management"]
+      "feat0": "AI-generated blog content",
+      "feat1": "Social media drafts",
+      "feat2": "Email automation",
+      "feat3": "Content calendar management",
+      "featCount": "4"
     }
   },
   "timeline": {
     "label": "Timeline",
     "title": "From zero to live in 4–8 weeks.",
     "subtitle": "Clear milestones, no surprises. You know exactly where we are at every step.",
-    "weeks": [
-      { "week": "Week 1–2", "title": "Discovery & Setup", "description": "Store audit, design system, WordPress backend setup, GA4/GTM configuration, project architecture." },
-      { "week": "Week 2–4", "title": "Build & Integrate", "description": "Nuxt 3 frontend development, product catalog, checkout flow, payment integration, server-side tracking." },
-      { "week": "Week 4–6", "title": "AI & Content Layer", "description": "AI content pipeline setup, blog automation, social media integration, email flows in Klaviyo." },
-      { "week": "Week 6–8", "title": "Launch & Optimize", "description": "QA testing, performance optimization, DNS migration, monitoring setup, handover documentation." }
-    ]
+    "week0_week": "Week 1–2",
+    "week0_title": "Discovery & Setup",
+    "week0_description": "Store audit, design system, WordPress backend setup, GA4/GTM configuration, project architecture.",
+    "week1_week": "Week 2–4",
+    "week1_title": "Build & Integrate",
+    "week1_description": "Nuxt 3 frontend development, product catalog, checkout flow, payment integration, server-side tracking.",
+    "week2_week": "Week 4–6",
+    "week2_title": "AI & Content Layer",
+    "week2_description": "AI content pipeline setup, blog automation, social media integration, email flows in Klaviyo.",
+    "week3_week": "Week 6–8",
+    "week3_title": "Launch & Optimize",
+    "week3_description": "QA testing, performance optimization, DNS migration, monitoring setup, handover documentation.",
+    "weekCount": "4"
   },
   "roi": {
     "label": "ROI Calculator",
@@ -104,12 +132,10 @@
     "title": "Coming soon.",
     "subtitle": "We're gathering real GA4 data from our first builds. Full case studies with before/after metrics will be published here.",
     "placeholder": "Case study with real numbers — coming Q2 2026",
-    "metrics": {
-      "tracking": "Conversion attribution improvement",
-      "speed": "PageSpeed score improvement",
-      "content": "AI-generated articles per month",
-      "timeline": "Build timeline"
-    }
+    "metrics_tracking": "Conversion attribution improvement",
+    "metrics_speed": "PageSpeed score improvement",
+    "metrics_content": "AI-generated articles per month",
+    "metrics_timeline": "Build timeline"
   },
   "pricing": {
     "label": "Pricing",
@@ -122,16 +148,15 @@
       "price": "€7,000–€12,000",
       "priceSub": "one-time · 90 days support",
       "timeline": "⚡ ~4–6 weeks to go live",
-      "features": [
-        "Full WooCommerce → Nuxt 3 migration",
-        "Stape sGTM setup + configuration",
-        "Meta CAPI with deduplication",
-        "GTM consent mode (GDPR-compliant)",
-        "GA4 server-side events",
-        "InPost Pay + BaseLinker setup",
-        "\"Signals recovered\" audit report"
-      ],
-      "cta": "Book a free discovery call →"
+      "cta": "Book a free discovery call →",
+      "feat0": "Full WooCommerce → Nuxt 3 migration",
+      "feat1": "Stape sGTM setup + configuration",
+      "feat2": "Meta CAPI with deduplication",
+      "feat3": "GTM consent mode (GDPR-compliant)",
+      "feat4": "GA4 server-side events",
+      "feat5": "InPost Pay + BaseLinker setup",
+      "feat6": "\"Signals recovered\" audit report",
+      "featCount": "7"
     },
     "ai": {
       "badge": "",
@@ -140,16 +165,15 @@
       "price": "€12,000–€20,000",
       "priceSub": "one-time · ~6 weeks + retainer",
       "timeline": "⚡ Full AI content layer included",
-      "features": [
-        "Everything in Growth Store",
-        "AI blog pipeline (8–12 articles/month)",
-        "Social media draft generation",
-        "Klaviyo email automation",
-        "Telegram store assistant",
-        "Content calendar management",
-        "AI Care retainer (€600–€1,200/mo)"
-      ],
-      "cta": "Book a free discovery call →"
+      "cta": "Book a free discovery call →",
+      "feat0": "Everything in Growth Store",
+      "feat1": "AI blog pipeline (8–12 articles/month)",
+      "feat2": "Social media draft generation",
+      "feat3": "Klaviyo email automation",
+      "feat4": "Telegram store assistant",
+      "feat5": "Content calendar management",
+      "feat6": "AI Care retainer (€600–€1,200/mo)",
+      "featCount": "7"
     }
   },
   "testimonial": {
@@ -157,23 +181,30 @@
     "quote": "I built StoreKite for my own store first. Then decided to offer it to others. Every tool in this stack is something I built, tested on my own ad budget, and rely on myself.",
     "name": "Szymon Bubała",
     "role": "Founder, StoreKite · biohac.pl",
-    "stats": [
-      { "val": "6+", "label": "years in dev" },
-      { "val": "3", "label": "stores built" },
-      { "val": "96", "label": "PageSpeed" }
-    ]
+    "stat0_val": "6+",
+    "stat0_label": "years in dev",
+    "stat1_val": "3",
+    "stat1_label": "stores built",
+    "stat2_val": "96",
+    "stat2_label": "PageSpeed",
+    "statCount": "3"
   },
   "faq": {
     "label": "FAQ",
     "title": "Questions we hear often.",
-    "items": [
-      { "q": "What exactly does StoreKite build?", "a": "We build complete AI-powered WooCommerce stores — headless Nuxt 3 frontend, automated GA4/GTM tracking, AI content pipeline (blog, social, email), and MCP-powered WordPress management. It's a full store build, not just tracking consulting." },
-      { "q": "How is this different from a regular agency?", "a": "Regular agencies take 3–6 months and skip tracking infrastructure. We deliver in 4–8 weeks with enterprise-grade server-side tracking, AI content automation, and MCP-powered WordPress management built in from day one." },
-      { "q": "Do I need to migrate from my current store?", "a": "Yes — we build a new headless frontend on Nuxt 3 while keeping your WooCommerce backend. Your products, orders, and customers stay in WordPress. The frontend gets a complete rebuild for performance and tracking." },
-      { "q": "What about SEO during migration?", "a": "We handle 301 redirects, canonical URLs, structured data, and sitemap generation. Most stores see improved rankings within weeks thanks to Core Web Vitals improvements." },
-      { "q": "How many projects do you take per year?", "a": "5–8 projects maximum. Each store gets dedicated attention — no assembly line, no junior devs. When we're full, we're full." },
-      { "q": "What does the AI content pipeline actually do?", "a": "It generates SEO blog articles, social media drafts, and email campaigns based on your products and brand voice. You review and approve before publishing. It's not auto-posting garbage — it's AI-assisted content creation with human oversight." }
-    ]
+    "item0_q": "What exactly does StoreKite build?",
+    "item0_a": "We build complete AI-powered WooCommerce stores — headless Nuxt 3 frontend, automated GA4/GTM tracking, AI content pipeline (blog, social, email), and MCP-powered WordPress management. It's a full store build, not just tracking consulting.",
+    "item1_q": "How is this different from a regular agency?",
+    "item1_a": "Regular agencies take 3–6 months and skip tracking infrastructure. We deliver in 4–8 weeks with enterprise-grade server-side tracking, AI content automation, and MCP-powered WordPress management built in from day one.",
+    "item2_q": "Do I need to migrate from my current store?",
+    "item2_a": "Yes — we build a new headless frontend on Nuxt 3 while keeping your WooCommerce backend. Your products, orders, and customers stay in WordPress. The frontend gets a complete rebuild for performance and tracking.",
+    "item3_q": "What about SEO during migration?",
+    "item3_a": "We handle 301 redirects, canonical URLs, structured data, and sitemap generation. Most stores see improved rankings within weeks thanks to Core Web Vitals improvements.",
+    "item4_q": "How many projects do you take per year?",
+    "item4_a": "5–8 projects maximum. Each store gets dedicated attention — no assembly line, no junior devs. When we're full, we're full.",
+    "item5_q": "What does the AI content pipeline actually do?",
+    "item5_a": "It generates SEO blog articles, social media drafts, and email campaigns based on your products and brand voice. You review and approve before publishing. It's not auto-posting garbage — it's AI-assisted content creation with human oversight.",
+    "itemCount": "6"
   },
   "cta": {
     "title": "Ready to build your AI store?",

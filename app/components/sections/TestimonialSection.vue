@@ -18,17 +18,12 @@
         </div>
 
         <div class="flex gap-6 md:gap-8 flex-wrap">
-          <div v-for="(stat, idx) in stats" :key="idx" class="text-center">
-            <div class="text-3xl font-black tracking-tight" :class="idx % 2 === 0 ? 'text-violet-light' : 'text-emerald-light'">{{ stat.val }}</div>
-            <div class="text-xs text-muted mt-1">{{ stat.label }}</div>
+          <div v-for="idx in 3" :key="idx" class="text-center">
+            <div class="text-3xl font-black tracking-tight" :class="idx % 2 === 1 ? 'text-violet-light' : 'text-emerald-light'">{{ $t(`testimonial.stat${idx - 1}_val`) }}</div>
+            <div class="text-xs text-muted mt-1">{{ $t(`testimonial.stat${idx - 1}_label`) }}</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 </template>
-
-<script setup lang="ts">
-const { tm } = useI18n()
-const stats = computed(() => tm('testimonial.stats') as Array<{ val: string; label: string }>)
-</script>

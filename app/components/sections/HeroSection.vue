@@ -44,8 +44,8 @@
             {{ $t('hero.proof') }}
           </div>
           <div class="flex flex-wrap gap-3">
-            <span v-for="(trust, i) in $tm('hero.trustIndicators')" :key="i" class="text-xs text-muted bg-card border border-border rounded-full px-3 py-1.5">
-              {{ trust }}
+            <span v-for="i in 4" :key="i" class="text-xs text-muted bg-card border border-border rounded-full px-3 py-1.5">
+              {{ $t(`hero.trust${i - 1}`) }}
             </span>
           </div>
         </div>

@@ -4,23 +4,23 @@
     <h2 class="text-3xl sm:text-4xl font-black tracking-tight leading-tight mb-12">{{ $t('faq.title') }}</h2>
 
     <div class="border border-border rounded-2xl overflow-hidden divide-y divide-border">
-      <div v-for="(item, idx) in faqItems" :key="idx">
+      <div v-for="idx in 6" :key="idx">
         <button
           class="w-full flex items-center justify-between px-7 py-6 text-left hover:bg-white/[0.02] transition-colors"
-          @click="toggle(idx)"
+          @click="toggle(idx - 1)"
         >
-          <span class="text-base font-bold pr-4">{{ item.q }}</span>
+          <span class="text-base font-bold pr-4">{{ $t(`faq.item${idx - 1}_q`) }}</span>
           <span
             class="text-lg text-violet-light shrink-0 transition-transform duration-200"
-            :class="{ 'rotate-45': openIdx === idx }"
+            :class="{ 'rotate-45': openIdx === idx - 1 }"
           >+</span>
         </button>
         <div
           class="grid transition-all duration-300 ease-in-out"
-          :class="openIdx === idx ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'"
+          :class="openIdx === idx - 1 ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'"
         >
           <div class="overflow-hidden">
-            <p class="px-7 pb-6 text-sm text-muted-light leading-relaxed">{{ item.a }}</p>
+            <p class="px-7 pb-6 text-sm text-muted-light leading-relaxed">{{ $t(`faq.item${idx - 1}_a`) }}</p>
           </div>
         </div>
       </div>
@@ -29,8 +29,6 @@
 </template>
 
 <script setup lang="ts">
-const { tm } = useI18n()
-const faqItems = computed(() => tm('faq.items') as Array<{ q: string; a: string }>)
 const openIdx = ref<number | null>(null)
 function toggle(idx: number) {
   openIdx.value = openIdx.value === idx ? null : idx

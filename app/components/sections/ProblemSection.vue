@@ -8,13 +8,13 @@
 
     <div class="grid md:grid-cols-3 gap-4">
       <div
-        v-for="(card, idx) in cards"
+        v-for="idx in 3"
         :key="idx"
         class="bg-card border border-border rounded-2xl p-7"
       >
-        <div class="text-4xl font-black tracking-tight text-red-400 mb-2">{{ card.num }}</div>
-        <h3 class="text-base font-bold mb-2">{{ card.title }}</h3>
-        <p class="text-sm text-muted-light leading-relaxed">{{ card.desc }}</p>
+        <div class="text-4xl font-black tracking-tight text-red-400 mb-2">{{ $t(`problem.card${idx - 1}_num`) }}</div>
+        <h3 class="text-base font-bold mb-2">{{ $t(`problem.card${idx - 1}_title`) }}</h3>
+        <p class="text-sm text-muted-light leading-relaxed">{{ $t(`problem.card${idx - 1}_desc`) }}</p>
       </div>
     </div>
 
@@ -25,8 +25,3 @@
     </div>
   </section>
 </template>
-
-<script setup lang="ts">
-const { tm } = useI18n()
-const cards = computed(() => tm('problem.cards') as Array<{ num: string; title: string; desc: string }>)
-</script>
