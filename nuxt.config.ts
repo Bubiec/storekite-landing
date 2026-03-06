@@ -28,12 +28,9 @@ export default defineNuxtConfig({
       { code: 'en', language: 'en-US', file: 'en.json', name: 'English' },
       { code: 'pl', language: 'pl-PL', file: 'pl.json', name: 'Polski' },
     ],
-    lazy: true,
+    lazy: false,
     langDir: 'i18n',
     detectBrowserLanguage: false,
-    compilation: {
-      jit: true,
-    },
   },
 
   tailwindcss: {
