@@ -11,7 +11,16 @@
       </div>
       <div class="text-center sm:text-right">
         <div>{{ $t('footer.builtIn') }} · {{ $t('footer.copyright') }}</div>
-        <div class="text-xs text-muted/60 mt-1">Built with Nuxt & Tailwind</div>
+        <div class="text-xs text-muted/60 mt-1">
+          <a
+            href="https://szymonbubala.pl?utm_source=storekite&utm_medium=footer&utm_campaign=portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:text-white transition-colors"
+          >
+            {{ $t('footer.createdBy') }}
+          </a>
+        </div>
       </div>
     </div>
   </footer>
