@@ -204,13 +204,15 @@
     "item4_a": "Maksymalnie 5–8 projektów. Każdy sklep dostaje dedykowaną uwagę — bez taśmy produkcyjnej, bez juniorów. Gdy jesteśmy pełni, jesteśmy pełni.",
     "item5_q": "Co robi pipeline treści AI?",
     "item5_a": "Generuje artykuły SEO, drafty social media i kampanie email na podstawie Twoich produktów i tonu marki. Przeglądasz i zatwierdzasz przed publikacją. To nie auto-postowanie bzdur — to tworzenie treści wspomagane AI z ludzkim nadzorem.",
-    "itemCount": "9",
+    "itemCount": "10",
     "item6_q": "Ile to kosztuje?",
     "item6_a": "Cena zależy od liczby produktów, wymaganych integracji i złożoności projektu. Każdy sklep jest inny — szczegółową wycenę przygotowujemy po bezpłatnej konsultacji. Umów rozmowę, a w ciągu 48 godzin otrzymasz transparentną wycenę.",
     "item7_q": "Czy muszę mieć już istniejący sklep?",
     "item7_a": "Nie — możemy zbudować sklep od zera lub przebudować istniejący. Jeśli masz już sklep na WooCommerce, zachowujemy Twoje produkty, zamówienia i klientów, wymieniając frontend. Zaczynasz od zera? Zajmiemy się wszystkim — od konfiguracji po uruchomienie.",
     "item8_q": "Jakie integracje obsługujecie poza standardowym stackiem?",
-    "item8_a": "Poza GA4, GTM i Meta CAPI integrujemy z bramkami płatności (PayU, Stripe, PayPo), firmami kurierskimi (InPost, DHL, DPD), platformami marketingowymi (Klaviyo, Mailchimp), marketplace'ami (Allegro, Amazon przez BaseLinker), systemami ERP i innymi. Jeśli ma API, możemy to podłączyć."
+    "item8_a": "Poza GA4, GTM i Meta CAPI integrujemy z bramkami płatności (PayU, Stripe, PayPo), firmami kurierskimi (InPost, DHL, DPD), platformami marketingowymi (Klaviyo, Mailchimp), marketplace'ami (Allegro, Amazon przez BaseLinker), systemami ERP i innymi. Jeśli ma API, możemy to podłączyć.",
+    "item9_q": "Czy musi być WooCommerce?",
+    "item9_a": "Specjalizujemy się w WooCommerce + headless Nuxt — tu dostarczamy najszybciej i najlepiej. Migracja z innych platform (Shopify, PrestaShop, Magento) jest możliwa, ale czas realizacji i koszty mogą być wyższe w zależności od złożoności. Umów rozmowę — uczciwie ocenimy Twoją sytuację."
   },
   "cta": {
     "title": "Gotowy na sklep z AI?",
