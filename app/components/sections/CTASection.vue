@@ -5,20 +5,27 @@
       <p class="text-base text-muted-light max-w-lg mx-auto leading-relaxed mb-8">{{ $t('cta.subtitle') }}</p>
 
       <!-- Cal.com embed -->
-      <div class="w-full rounded-xl overflow-hidden mb-6">
-        <iframe
-          src="https://cal.com/szymon-bubala/30min?theme=dark"
-          width="100%"
-          height="900"
-          frameborder="0"
-          loading="lazy"
-          class="w-full"
-          style="min-height: 900px; border: none; overflow: hidden;"
-          scrolling="no"
-        />
-      </div>
+      <div id="cal-embed" class="w-full rounded-xl overflow-hidden mb-6" style="min-height: 700px;" />
 
       <p class="text-xs text-muted mt-4">{{ $t('cta.fine') }}</p>
     </div>
   </section>
 </template>
+
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const script = document.createElement('script')
+  script.src = 'https://app.cal.com/embed/embed.js'
+  script.onload = () => {
+    Cal("init", { origin: "https://cal.com" })
+    Cal("inline", {
+      elementOrSelector: "#cal-embed",
+      calLink: "szymon-bubala/30min",
+      config: { theme: "dark" }
+    })
+  }
+  document.head.appendChild(script)
+})
+</script>
