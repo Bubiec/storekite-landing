@@ -204,7 +204,13 @@
     "item4_a": "5–8 projects maximum. Each store gets dedicated attention — no assembly line, no junior devs. When we're full, we're full.",
     "item5_q": "What does the AI content pipeline actually do?",
     "item5_a": "It generates SEO blog articles, social media drafts, and email campaigns based on your products and brand voice. You review and approve before publishing. It's not auto-posting garbage — it's AI-assisted content creation with human oversight.",
-    "itemCount": "6"
+    "itemCount": "9",
+    "item6_q": "How much does it cost?",
+    "item6_a": "Pricing depends on the number of products, required integrations, and project complexity. Every store is different — we provide a detailed quote after a free consultation call. Book a call and we'll give you a transparent estimate within 48 hours.",
+    "item7_q": "Do I need an existing online store?",
+    "item7_a": "No — we can build from scratch or rebuild your existing store. If you already have a WooCommerce shop, we keep your products, orders, and customers intact while replacing the frontend. Starting fresh? We handle everything from setup to launch.",
+    "item8_q": "What integrations do you support beyond the standard stack?",
+    "item8_a": "Beyond GA4, GTM, and Meta CAPI we integrate with payment gateways (PayU, Stripe, PayPo), shipping providers (InPost, DHL, DPD), marketing platforms (Klaviyo, Mailchimp), marketplaces (Allegro, Amazon via BaseLinker), ERP systems, and more. If it has an API, we can connect it."
   },
   "cta": {
     "title": "Ready to build your AI store?",
