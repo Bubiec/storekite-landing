@@ -5,15 +5,16 @@
       <p class="text-base text-muted-light max-w-lg mx-auto leading-relaxed mb-8">{{ $t('cta.subtitle') }}</p>
 
       <!-- Cal.com embed -->
-      <div class="w-full rounded-xl overflow-hidden mb-6" style="min-height: 600px;">
+      <div class="w-full rounded-xl overflow-hidden mb-6">
         <iframe
           src="https://cal.com/szymon-bubala/30min?theme=dark"
           width="100%"
-          height="600"
+          height="900"
           frameborder="0"
           loading="lazy"
           class="w-full"
-          style="min-height: 600px; border: none;"
+          style="min-height: 900px; border: none; overflow: hidden;"
+          scrolling="no"
         />
       </div>
 
