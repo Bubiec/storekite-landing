@@ -28,9 +28,12 @@ export default defineNuxtConfig({
       { code: 'en', language: 'en-US', file: 'en.json', name: 'English' },
       { code: 'pl', language: 'pl-PL', file: 'pl.json', name: 'Polski' },
     ],
-    lazy: false,
+    lazy: true,
     langDir: 'i18n',
     detectBrowserLanguage: false,
+    compilation: {
+      jit: true,
+    },
   },
 
   tailwindcss: {
@@ -38,10 +41,10 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/': { prerender: true },
-    '/pl': { prerender: true },
-    '/pl/**': { prerender: true },
-    '/privacy': { prerender: true },
-    '/terms': { prerender: true },
+    '/': { isr: 3600 },
+    '/pl': { isr: 3600 },
+    '/pl/**': { isr: 3600 },
+    '/privacy': { isr: 3600 },
+    '/terms': { isr: 3600 },
   },
 })
